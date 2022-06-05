@@ -1,0 +1,152 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+}
+
+#container{
+	width: 1500px;
+	height: 800px;
+	text-align: center;
+	color:white;
+	background-image: url(Baackgroundimage.jpg);
+	background-size: cover;
+}
+
+#calculator{
+	width: 320px;
+	height: 560px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 30px;
+	position: relative;
+	border-radius: 5px;
+}
+
+#keyboard{
+	height: 400px;
+}
+
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+	color: #1d0303;
+}
+#NumberHistry{
+	text-align: right;
+	height: 30px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: rgba(112, 108, 108, 0.89);
+}
+
+#result{
+	height: 130px;
+	
+}
+
+
+.opert, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+.number, .opert{
+	cursor: pointer;
+}
+
+.number:hover{
+  background-color: #cfc7c7;
+}
+.number, .empty{
+	background-color: #eaedef;
+}
+opert:active, .number:active{
+	font-size: 13px;
+}
+.opert:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(1){
+	font-size: 20px;
+	background-color: #f11c26;
+	opacity: 1;
+}
+button:nth-child(2){
+	font-size: 20px;
+	background-color: #f09292;
+	opacity: 1;
+}
+button:nth-child(3){
+	font-size: 20px;
+	background-color: #f84242;
+	opacity: 1;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #e63e5a;
+	opacity: 1;
+}
+
+
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #8b1414;
+	opacity: 1;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f84242;
+	opacity: 1;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: f09292;
+	opacity: 1;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #f11c26;
+	opacity: 1;
+}
+
+button:nth-child(1):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(2):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(3):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(4):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(8):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(12):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(16):hover{
+	opacity: 0.8;
+}
+
+button:nth-child(20):hover{
+	opacity: 0.8;
+}
+
+
